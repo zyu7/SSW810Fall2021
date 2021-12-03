@@ -1,3 +1,4 @@
+# this is only a testing file for using Github
 import unittest
 
 def factorial(n):
@@ -5,4 +6,4 @@ def factorial(n):
 	if n==1:
 		return 1
 	else:
-		return n-1
+		return n*factorial(n-1)
